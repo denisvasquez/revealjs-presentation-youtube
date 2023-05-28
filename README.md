@@ -3,7 +3,7 @@ Esta presentación esta hecha con fines educativos, para conocer un tema muy int
 
 # Como ingresar a ver la presentación
 Esta presentación esta contruida a base de una herramienta llamada `reveal.js` para una mejor experiencia.
-Puedes ingresar a este enlace para verlo, 
+Puedes ingresar a este enlace para verlo, ![Link](https://denisvasquez.github.io/revealjs-presentation-youtube/)
 
 # Modo desarrollo
 Si quieres tener esta presentación en tu maquina local tienes que clonar el repositorio o descargar el archivo .zip
