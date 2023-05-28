@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/dracula.css">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<h2>Máximos y mínimos por el criterio de la segunda derivada</h2>
+					<h4>Denis Vásquez 5990-22-1014</h4>
+				</section>
+				<section>
+					<h3>Objetivo general</h3>
+					<p>Desarrollar capacidades para el análisis, estudio, interpretación y pronóstico del comportamiento de las variables del mercado internacional, mediante el empleo de las herramientas de matemáticas básicas que permita la toma de decisiones oportunamente de acuerdo a los objetivos preestablecido.</p>
+				</section>
+				<section>
+					<h3>¿Para que nos sirve?</h3>
+					<p>Determinar el cambio de la pendiente de una función en sus puntos de inflexión, es de suma importancia, para saber si se tiene un máximo o un mínimo. Para ello, existen diferentes métodos, como el criterio de segunda derivada.</p>
+				</section>
+				<!-- teoremas -->
+				<section data-auto-animate>
+					\[\begin{aligned}
+					\ {y} &amp; = \frac{u}{{v}} = {y'} = \frac{u'v - v'u}{{v²}} \\
+					\ {y} &amp; = {k}{x} = {y'} = {k} \\
+					\ {y} &amp; = {x^n} = {y'} = {nx^{n-1}} \\
+					\ {y} &amp; = {k} = {y'} = 0 \\
+					\ {y} &amp; = {x} = {y'} = 1 \\
+					\end{aligned} \]
+				</section>
+				<!-- separando por partes -->
+				<section data-auto-animate>
+					<h3>1. Primera derivada</h3>
+					\[\begin{aligned}
+					\ &amp; f(x) = \frac{x³}{{3}} - \frac{x²}{{2}} - 6x + 100 \\
+					\end{aligned} \]
+				</section>
+				<section data-auto-animate>
+					<h3>1. Primera derivada</h3>
+					\[\begin{aligned}
+					\ &amp; f(x) = \frac{x³}{{3}} - \frac{x²}{{2}} - 6x + 100 \\
+					\ &amp; f(x) = \frac{x³}{{3}},
+					\ f(x) = \frac{x²}{{2}},
+					\ f(x) = 6x,
+					\ f(x) = 100
+					\end{aligned} \]
+				</section>
+				<!-- primera parte -->
+				<section data-auto-animate>
+					<h3>1. Primera derivada</h3>
+					\[\begin{aligned}
+					\ &amp; f(x) = \frac{x³}{{3}} = \frac{(x³)'(3)-(3)'(x³)}{{3²}} = \frac{(3x²)(3)}{{3²}} = \frac{9x²}{{9}} = x² \\
+					\end{aligned} \]
+				</section>
+				<!-- segunda parte -->
+				<section data-auto-animate>
+					<h3>1. Primera derivada</h3>
+					\[\begin{aligned}
+					\ &amp; f(x) = \frac{x²}{{2}} = \frac{(x²)'(2)-(2)'(x²)}{{2²}} = \frac{(2x)(2)}{{2²}} = \frac{4x}{{4}} = x \\
+					\end{aligned} \]
+				</section>
+				<!-- tercera parte -->
+				<section data-auto-animate>
+					<h3>1. Primera derivada</h3>
+					\[\begin{aligned}
+					\ &amp; f(x) = 6x = 6 \\
+					\end{aligned} \]
+				</section>
+				<!-- cuarta parte -->
+				<section data-auto-animate>
+					<h3>1. Primera derivada</h3>
+					\[\begin{aligned}
+					\ &amp; f(x) = 100 = 0 \\
+					\end{aligned} \]
+				</section>
+				<section data-auto-animate>
+					<h3>1. Primera derivada</h3>
+					\[\begin{aligned}
+					\ f'(x) = x² - x - 6 \\
+					\end{aligned} \]
+				</section>
+				<!-- paso dos -->
+				<section data-auto-animate>
+					<h3>2. Igualar a 0 la primera derivada</h3>
+					\[\begin{aligned}
+					\ x² - x - 6 = 0 \\
+					\end{aligned} \]
+				</section>
+				<section data-auto-animate>
+					<h3>2. Igualar a 0 la primera derivada</h3>
+					\[\begin{aligned}
+					\ &amp; x² - x - 6 = 0 \\
+					\ {x} &amp; = \frac{-b ± \sqrt{b² - 4ac}}{{2a}} 
+					\end{aligned} \]
+				</section>
+				<section data-auto-animate>
+					<h3>2. Igualar a 0 la primera derivada</h3>
+					\[\begin{aligned}
+					\ {x} &amp; = \frac{-(-1) ± \sqrt{(-1)² - 4(1)-6}}{{2(1)}} 
+					\end{aligned} \]
+				</section>
+				<section data-auto-animate>
+					<h3>2. Igualar a 0 la primera derivada</h3>
+					\[\begin{aligned}
+					\ {x} &amp; = \frac{-(-1) ± \sqrt{(-1)² - 4(1)-6}}{{2(1)}} = \frac{1 ± \sqrt{1 + 24}}{{2}} \\
+					\end{aligned} \]
+				</section>
+				<section data-auto-animate>
+					<h3>2. Igualar a 0 la primera derivada</h3>
+					\[\begin{aligned}
+					\ {x¹} &amp; = \frac{1 + \sqrt{1 + 24}}{{2}} = \frac{1 + \sqrt{25}}{{2}} = \frac{1+5}{{2}} = 3 \\
+					\ {x²} &amp; = \frac{1 - \sqrt{1 + 24}}{{2}} = \frac{1 - \sqrt{25}}{{2}} = \frac{1-5}{{2}} = -2 \\
+					\end{aligned} \]
+				</section>
+				<!-- paso tres -->
+				<section data-auto-animate>
+					<h3>3. Obtener la segunda derivada</h3>
+					\[\begin{aligned}
+					\ f'(x) = x² - x - 6 \\
+					\end{aligned} \]
+				</section>
+				<section data-auto-animate>
+					<h3>3. Obtener la segunda derivada</h3>
+					\[\begin{aligned}
+					\ &amp; f'(x) = x² - x - 6 \\
+					\ &amp; f''(x) = 2x - 1 \\
+					\end{aligned} \]
+				</section>
+				<!-- paso cuatro -->
+				<section data-auto-animate>
+					<h3>4. Sustituir los valores criticos en la segunda derivada</h3>
+					\[\begin{aligned}
+					\ &amp; f''(x) = 2x - 1 \\
+					\end{aligned} \]
+				</section>
+				<section data-auto-animate>
+					<h3>4. Sustituir los valores criticos en la segunda derivada</h3>
+					\[\begin{aligned}
+					\ &amp; f''(3) = 2(3) - 1 = 5 \\
+					\ &amp; f''(-2) = 2(-2) - 1 = -5 \\
+					\end{aligned} \]
+				</section>
+				<!-- paso cinco -->
+				<section data-auto-animate>
+					<h3>5. Evaluar los puntos criticos obtenidos de la segunda derivada</h3>
+				</section>
+				<section data-auto-animate>
+					<h3>5. Evaluar los puntos criticos obtenidos de la segunda derivada</h3>
+					<p>Cuando la función es evaluada en sus valores críticos, si el valor es mayor a cero (positivo), entonces se tiene un mínimo y cuando es menor a cero (negativo) se tendrá un máximo</p>
+				</section>
+				<section data-auto-animate>
+					<h3>5. Evaluar los puntos criticos obtenidos de la segunda derivada</h3>
+					<p>Cuando la función es evaluada en sus valores críticos, si el valor es mayor a cero (positivo), entonces se tiene un mínimo y cuando es menor a cero (negativo) se tendrá un máximo</p>
+					\[\begin{aligned}
+					\ 5 > 0  = minimo \\
+					\ -5 < 0 = maximo \\
+					\end{aligned} \]
+				</section>
+				<!-- paso seis -->
+				<section data-auto-animate>
+						<h3>6. Sustituir los valores criticos en la funcion original</h3>
+				</section>
+				<section data-auto-animate>
+						<h3>6. Sustituir los valores criticos en la funcion original</h3>
+					\[\begin{aligned}
+					\ &amp; f(x) = \frac{x³}{{3}} - \frac{x²}{{2}} - 6x + 100 \\
+					\end{aligned} \]
+				</section>
+				<section data-auto-animate>
+						<h3>6. Sustituir los valores criticos en la funcion original</h3>
+						\[\begin{aligned}
+						\ &amp; f(3) = \frac{(3)³}{{3}} - \frac{(3)²}{{2}} - 6(3) + 100 = \frac{173}{{2}} = 86.5 \\
+						\ &amp; f(-2) = \frac{(-2)³}{{3}} - \frac{(-2)²}{{2}} - 6(-2) + 100 = \frac{322}{{2}} = 107.33 \\
+						\end{aligned} \]
+				</section>
+				<section data-auto-animate>
+						<h3>6. Sustituir los valores criticos en la funcion original</h3>
+						\[\begin{aligned}
+						\ (3, 86.5), (-2, 107.33) \\
+						\end{aligned} \]
+				</section>
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script src="plugin/math/math.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealMath.KaTeX ]
+			});
+		</script>
+	</body>
+</html>
